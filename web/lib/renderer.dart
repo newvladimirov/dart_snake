@@ -7,6 +7,8 @@ abstract class AbstractRenderer {
 
     Element _rootElement;
 
+    Element get container => _rootElement;
+
     int get width => _rootElement.offsetWidth;
     int get height => _rootElement.offsetHeight;
 
